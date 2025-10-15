@@ -36,7 +36,7 @@ Commande :</br>
 - Copier/coller le script dans une console exploitant l'environnement python.
 - Le script va exécuter le processus ETL automatiquement jusqu'à sa complétion ;
 - Une fois terminé, la base de données sera alimentée, les données seront stockées dans le schéma "public" par défaut, car dans le cadre de ce script, aucun schéma n'a été crée ou renseigné;
-- Les données récupérées sont grossièrement filtrées sur le nord de la France depuis le script;
+- Les données récupérées sont grossièrement filtrées sur le nord de la France depuis le script, et reprojetées en 2154;
 - La commande OGR ne génère pas d'historisation dans notre cas. 
 
 ### Python :
@@ -47,7 +47,7 @@ Commande :</br>
 - Exécutez le fichier `apiznieff1.py` dans un terminal exploitant l'environnement python la commande `python apiznieff1.py`, uniquement lorsque vous êtes placé dans le dossier contenant les scripts, (exemple dans le terminal : `cd "chemin du dossier contenant le script"` une fois placé dans le dossier `python apiznieff1.py`). ;
 - Le script va exécuter le processus ETL automatiquement jusqu'à sa complétion ;
 - Une fois terminé, la base de données sera alimentée, les données seront stockées dans le schéma "public" par défaut, car dans le cadre de ce script, aucun schéma n'a été crée ou renseigné;
-- Les données récupérées sont grossièrement filtrées sur le nord de la France depuis le script ;
+- Les données récupérées sont grossièrement filtrées sur le nord de la France depuis le script, et reprojetées en 2154 ;
 - Le script python va créer une seconde table `ign_znieff1_histo` qui renseigne certaines informations d'import (version, timestamp...). 
 
 ### Audit des données :
