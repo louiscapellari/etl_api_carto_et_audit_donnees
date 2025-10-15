@@ -60,7 +60,7 @@ Commande :</br>
 ### OGR (GDAL) : 
 Exécution du script dans la console python :</br> 
 <img width="694" height="38" alt="commande_ogr" src="https://github.com/user-attachments/assets/206865b9-8f52-4821-9506-0afd09b525d0" /></br>
-Tables dans la base de données :</br> 
+Table dans la base de données :</br> 
 <img width="196" height="60" alt="ogr_bdd" src="https://github.com/user-attachments/assets/b476b836-1a86-491b-a644-a2b46420991a" /></br>
 Résultat sur QGIS :</br> 
 <img width="958" height="443" alt="resultat_ogr" src="https://github.com/user-attachments/assets/d315d57b-1700-403b-9fff-fa8cd36fe773" /></br>
