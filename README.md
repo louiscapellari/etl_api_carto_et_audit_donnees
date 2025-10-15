@@ -83,4 +83,6 @@ Exécution du script SQL (via le query tool de PG Admin dans notre cas) :</br>
 
 ## Améliorations 
 - Créer un schéma particulier pour accueillir les données (comme dans le projet etl_vc) ;
+- Nettoyage des données ;
+- Renseignement des métadonnées ; 
 - Mapping des champs selon un modèle conceptuel de données.
