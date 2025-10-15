@@ -58,29 +58,29 @@ Commande :
 
 ## Résultats : 
 ### OGR (GDAL) : 
-Exécution du script dans la console python : 
-<img width="694" height="38" alt="commande_ogr" src="https://github.com/user-attachments/assets/206865b9-8f52-4821-9506-0afd09b525d0" />
-Tables dans la base de données : 
-<img width="196" height="60" alt="ogr_bdd" src="https://github.com/user-attachments/assets/b476b836-1a86-491b-a644-a2b46420991a" />
-Résultat sur QGIS : 
-<img width="958" height="443" alt="resultat_ogr" src="https://github.com/user-attachments/assets/d315d57b-1700-403b-9fff-fa8cd36fe773" />
+Exécution du script dans la console python :</br> 
+<img width="694" height="38" alt="commande_ogr" src="https://github.com/user-attachments/assets/206865b9-8f52-4821-9506-0afd09b525d0" /></br>
+Tables dans la base de données :</br> 
+<img width="196" height="60" alt="ogr_bdd" src="https://github.com/user-attachments/assets/b476b836-1a86-491b-a644-a2b46420991a" /></br>
+Résultat sur QGIS :</br> 
+<img width="958" height="443" alt="resultat_ogr" src="https://github.com/user-attachments/assets/d315d57b-1700-403b-9fff-fa8cd36fe773" /></br>
 
 ### Python :
-Exécution du script dans la console python : 
-<img width="656" height="36" alt="load_etl" src="https://github.com/user-attachments/assets/95c030e5-08bf-4009-bd62-3e1614224aa1" />
-Bonne complétion du script : 
-<img width="140" height="28" alt="completion_script" src="https://github.com/user-attachments/assets/ebee68be-892f-4154-81a6-10492d11e9a0" />
-Tables dans la base de données : 
-<img width="283" height="59" alt="table_en_bdd" src="https://github.com/user-attachments/assets/25a53a98-c989-4096-8663-f7ad5e1c4849" />
-Table d'historisation dans la base de données : 
-<img width="549" height="88" alt="image" src="https://github.com/user-attachments/assets/b57f4711-f1b8-4e3c-a4f4-04bd327bc277" />
-Résultat sur QGIS : 
-<img width="956" height="416" alt="resultat_script_python" src="https://github.com/user-attachments/assets/5a7a938b-309b-4ac4-85ed-23887fe58bf5" />
+Exécution du script dans la console python :</br> 
+<img width="656" height="36" alt="load_etl" src="https://github.com/user-attachments/assets/95c030e5-08bf-4009-bd62-3e1614224aa1" /></br>
+Bonne complétion du script :</br> 
+<img width="140" height="28" alt="completion_script" src="https://github.com/user-attachments/assets/ebee68be-892f-4154-81a6-10492d11e9a0" /></br>
+Tables dans la base de données :</br> 
+<img width="283" height="59" alt="table_en_bdd" src="https://github.com/user-attachments/assets/25a53a98-c989-4096-8663-f7ad5e1c4849" /></br>
+Table d'historisation dans la base de données :</br> 
+<img width="549" height="88" alt="image" src="https://github.com/user-attachments/assets/b57f4711-f1b8-4e3c-a4f4-04bd327bc277" /></br>
+Résultat sur QGIS :</br> 
+<img width="956" height="416" alt="resultat_script_python" src="https://github.com/user-attachments/assets/5a7a938b-309b-4ac4-85ed-23887fe58bf5" /></br>
 
 ### Audit des données : 
-Exécution du script (query tool de PG Admin dans notre cas) : 
-<img width="439" height="260" alt="audit_bdd" src="https://github.com/user-attachments/assets/b0722091-d9af-4a60-a227-bc4de08cda54" />
+Exécution du script (query tool de PG Admin dans notre cas) :</br>
+<img width="439" height="260" alt="audit_bdd" src="https://github.com/user-attachments/assets/b0722091-d9af-4a60-a227-bc4de08cda54" /></br>
 
 ## Améliorations 
-- Créer un schéma particulier pour accueillir les données (comme dans le projet etl_vc) ; 
+- Créer un schéma particulier pour accueillir les données (comme dans le projet etl_vc) ;
 - Mapping des champs selon un modèle conceptuel de données.
