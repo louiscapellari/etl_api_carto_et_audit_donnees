@@ -4,6 +4,8 @@
 - Intégrer automatiquement les données dans une base de données PostgreSQL/PostGIS ;
 - Auditer simplement et rapidement et les données récupérées via un script SQL.
 
+L'objectif de ce mini-projet était de récupérer une couche depuis une API simplement et rapidement, et de vérifier la qualité de la couche. Un workflow plus complet aurait pu être réalisé, mais ce n'était pas l'objectif ici. 
+
 ## Source des données 
 | Fournisseur       | API utilisée  | Lien de l'API | Couche récupérée |
 |-------------------|---------------|---------------|------------------|
