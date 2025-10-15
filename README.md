@@ -13,8 +13,8 @@
 Testé dans un environnement python 3.12.11 généré via Anaconda. </br>
 Testé avec PostgreSQL 17.
 
-Liste des librairies python indispensables :
-Commande OGR : 
+Liste des librairies python indispensables :</br>
+Commande OGR :</br> 
 - GDAL
 
 Script Python : 
