@@ -10,7 +10,7 @@
 | **IGN** | API CARTO (REST) | https://apicarto.ign.fr/api/nature/znieff1 | znieff1 |
 
 ## Dépendances 
-Testé dans un environnement python 3.12.11 généré via Anaconda.
+Testé dans un environnement python 3.12.11 généré via Anaconda. </br>
 Testé avec PostgreSQL 17.
 
 Liste des librairies python indispensables :
