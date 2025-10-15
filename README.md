@@ -9,5 +9,12 @@
 |-------------------|---------------|---------------|------------------|
 | **IGN** | API CARTO (REST) | https://apicarto.ign.fr/api/nature/znieff1 | znieff1 |
 
+## Dépendances 
+
+## Scripts 
+`ogr2ogr -f "PostgreSQL" PG:"host=localhost dbname=etl_vc user=postgres password=" "https://apicarto.ign.fr/api/nature/znieff1" -nln ign_znieff1 -nlt PROMOTE_TO_MULTI -a_srs EPSG:4326 -t_srs EPSG:2154 -lco GEOMETRY_NAME=geom -overwrite -spat 1.30 49.80 4.30 51.20`
+
+## Utilisation 
+
 ## Améliorations 
 - Mapping des champs selon un modèle conceptuel de données 
