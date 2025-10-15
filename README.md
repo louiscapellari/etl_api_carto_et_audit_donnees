@@ -27,8 +27,8 @@ Script Python :
 Vous pouvez choisir d'éxécuter soit la commande OGR, soit le script python pour charger les données dans la base de données. </br>
 Une fois l'un ou l'autre des scripts exécuté, vous pouvez passer à la réalisation de l'audit des données. 
 
-### OGR (GDAL) :
-Commande : 
+### OGR (GDAL) :</br>
+Commande :</br> 
 `ogr2ogr -f "PostgreSQL" PG:"host=localhost dbname= user=postgres password=" "https://apicarto.ign.fr/api/nature/znieff1" -nln ign_znieff1 -nlt PROMOTE_TO_MULTI -a_srs EPSG:4326 -t_srs EPSG:2154 -lco GEOMETRY_NAME=geom -overwrite -spat 1.30 49.80 4.30 51.20`
 - Créez un environnement python disposant de toutes les librairies mentionnées ci-dessus pour la commande OGR;
 - Créez une base de données PostgreSQL/PostGIS que vous nommerez comme vous souhaitez ;
