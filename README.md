@@ -78,7 +78,7 @@ Résultat sur QGIS :</br>
 <img width="956" height="416" alt="resultat_script_python" src="https://github.com/user-attachments/assets/5a7a938b-309b-4ac4-85ed-23887fe58bf5" /></br>
 
 ### Audit des données : 
-Exécution du script (query tool de PG Admin dans notre cas) :</br>
+Exécution du script SQL (via le query tool de PG Admin dans notre cas) :</br>
 <img width="439" height="260" alt="audit_bdd" src="https://github.com/user-attachments/assets/b0722091-d9af-4a60-a227-bc4de08cda54" /></br>
 
 ## Améliorations 
