@@ -42,11 +42,11 @@ Commande :</br>
 - La commande OGR ne génère pas d'historisation dans notre cas. 
 
 ### Python :
-- Télécharger le script `apiznieff1.py`
+- Télécharger le script `api_znieff1.py`
 - Créez un environnement python disposant de toutes les librairies mentionnées ci-dessus pour le script python ;
 - Créez une base de données PostgreSQL/PostGIS que vous nommerez comme vous souhaitez ;
 - Dans le script python, renseignez le nom de la base de données, éventuellement le user et enfin le mot de passe de votre base de données ;
-- Exécutez le fichier `apiznieff1.py` dans un terminal exploitant l'environnement python la commande `python apiznieff1.py`, uniquement lorsque vous êtes placé dans le dossier contenant les scripts, (exemple dans le terminal : `cd "chemin du dossier contenant le script"` une fois placé dans le dossier `python apiznieff1.py`). ;
+- Exécutez le fichier `api_znieff1.py` dans un terminal exploitant l'environnement python la commande `python api_znieff1.py`, uniquement lorsque vous êtes placé dans le dossier contenant les scripts, (exemple dans le terminal : `cd "chemin du dossier contenant le script"` une fois placé dans le dossier `python api_znieff1.py`). ;
 - Le script va exécuter le processus ETL automatiquement jusqu'à sa complétion ;
 - Une fois terminé, la base de données sera alimentée, les données seront stockées dans le schéma "public" par défaut, car dans le cadre de ce script, aucun schéma n'a été crée ou renseigné;
 - Les données récupérées sont grossièrement filtrées sur le nord de la France depuis le script, et reprojetées en 2154 ;
@@ -54,7 +54,7 @@ Commande :</br>
 
 ### Audit des données :
 - Exécutez l'un au l'autre des scripts au préalable ;
-- Depuis votre SGBD (PG Admin, Dbeaver...), exécutez le script SQL d'audit des données `audit_simple_api`;
+- Depuis votre SGBD (PG Admin, Dbeaver...), exécutez le script SQL d'audit des données `audit_simple_api.sql`;
 - Un tableau de résultat sera retourné en fin de script ;
 - Dans notre cas le script est personnalisé pour la table ign_znieff1 récupérée, cependant je dispose sur demande d'un script générique similaire avec une fonction SQL pouvant s'adapter à n'importe quelle table.
 
