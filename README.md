@@ -2,7 +2,7 @@
 ## Objectifs
 - Récupérer une couche depuis l'API CARTO de l'IGN (API accessible librement) en python ou via une commande OGR (GDAL) en filtrant spatialement, reprojetant les données récupérées (4326 vers 2154) et en faisant une historisation des données ; 
 - Intégrer automatiquement les données dans une base de données PostgreSQL/PostGIS ;
-- Auditer simplement et rapidement et les données récupérées via un script SQL.
+- Auditer simplement et rapidement les données récupérées via un script SQL.
 
 L'objectif de ce mini-projet était de récupérer une couche depuis une API simplement et rapidement, et de vérifier la qualité de la couche. Un workflow plus complet aurait pu être réalisé, mais ce n'était pas l'objectif ici. 
 
