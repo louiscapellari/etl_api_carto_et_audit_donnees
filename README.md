@@ -54,8 +54,9 @@ Commande :</br>
 
 ### Audit des données :
 - Exécutez l'un au l'autre des scripts au préalable ;
-- Depuis votre SGBD (PG Admin, Dbeaver...), exécutez le script SQL d'audit des données ;
-- Un tableau de résultat sera retourné en fin de script. 
+- Depuis votre SGBD (PG Admin, Dbeaver...), exécutez le script SQL d'audit des données `audit_simple_api`;
+- Un tableau de résultat sera retourné en fin de script ;
+- Dans notre cas le script est personnalisé pour la table ign_znieff1 récupérée, cependant je dispose sur demande d'un script générique similaire avec une fonction SQL pouvant s'adapter à n'importe quelle table.
 
 
 ## Résultats : 
