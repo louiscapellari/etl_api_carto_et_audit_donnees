@@ -1,6 +1,6 @@
-# Workflow ETL simple utilisant l'API CARTO de l'IGN, et audit des données récupérées 
+# Pipeline ETL simple utilisant l'API CARTO de l'IGN, et audit des données récupérées 
 ## Objectifs
-- Récupérer une couche depuis l'API CARTO de l'IGN (API accessible librement) en python ou via une commande OGR (GDAL) en filtrant spatialement, reprojetant les données récupérées (4326 vers 2154) et en faisant une historisation des données ; 
+- Récupérer une couche depuis l'API CARTO de l'IGN (API accessible librement) en python ou via une commande OGR (GDAL) en filtrant spatialement, reprojetant les données récupérées (4326 vers 2154) et en faisant une historisation des données (seulement via script python) ; 
 - Intégrer automatiquement les données dans une base de données PostgreSQL/PostGIS ;
 - Auditer simplement et rapidement les données récupérées via un script SQL.
 
