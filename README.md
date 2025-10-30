@@ -26,7 +26,7 @@ Script Python :
 
 ## Instructions 
 
-Vous pouvez choisir d'éxécuter soit la commande OGR, soit le script python pour charger les données dans la base de données. </br>
+Vous pouvez choisir d'exécuter soit la commande OGR, soit le script python pour charger les données dans la base de données. </br>
 Une fois l'un ou l'autre des scripts exécuté, vous pouvez passer à la réalisation de l'audit des données. 
 
 ### OGR (GDAL) :</br>
