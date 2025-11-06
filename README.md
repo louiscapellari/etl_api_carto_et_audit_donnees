@@ -27,7 +27,7 @@ Script Python :
 ## Instructions 
 
 Vous pouvez choisir d'exécuter soit la commande OGR, soit le script python pour charger les données dans la base de données. </br>
-Une fois l'un ou l'autre des scripts exécuté, vous pouvez passer à la réalisation de l'audit des données. 
+Une fois l'un ou l'autre des scripts exécuté, vous pouvez passer à la réalisation de l'audit des données dans la base de données. </br>
 
 ### OGR (GDAL) :</br>
 Commande :</br> 
@@ -46,7 +46,7 @@ Commande :</br>
 - Créez un environnement python disposant de toutes les librairies mentionnées ci-dessus pour le script python ;
 - Créez une base de données PostgreSQL/PostGIS que vous nommerez comme vous souhaitez ;
 - Dans le script python, renseignez le nom de la base de données, éventuellement le user et enfin le mot de passe de votre base de données ;
-- Exécutez le fichier `api_znieff1.py` dans un terminal exploitant l'environnement python la commande `python api_znieff1.py`, uniquement lorsque vous êtes placé dans le dossier contenant les scripts, (exemple dans le terminal : `cd "chemin du dossier contenant le script"` une fois placé dans le dossier `python api_znieff1.py`). ;
+- Exécutez le fichier `api_znieff1.py` via une console exploitant l'environnement python avec la commande `python api_znieff1.py`, uniquement lorsque vous êtes placé dans le dossier contenant le script, (exemple dans la console: `cd "chemin du dossier contenant le script"`, une fois placé dans le dossier exécutez la commande `python api_znieff1.py`). ;
 - Le script va exécuter le processus ETL automatiquement jusqu'à sa complétion ;
 - Une fois terminé, la base de données sera alimentée, les données seront stockées dans le schéma "public" par défaut, car dans le cadre de ce script, aucun schéma n'a été crée ou renseigné;
 - Les données récupérées sont grossièrement filtrées sur le nord de la France depuis le script, et reprojetées en 2154 ;
